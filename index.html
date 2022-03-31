@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brennan Reed Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8203a82961.js" crossorigin="anonymous"></script>
+    <style>
+        li {
+            color: rgb(132, 0, 255)
+        }
+    </style>
+</head>
+<body>
+    
+<!--  Navbar Section  -->
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Brennan Reed</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#skills" class="navbar__links" id="skills-page">Skills</a> 
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#education" class="navbar__links" id="education-page">Education</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#contact" class="button" id="contact-page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Home -->
+
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Hello world, I'm Brennan. I hope to be your next <span>software developer.</span></h1>
+            <p class="hero__description">Keep reading to find out why I'd be a great addition to your team.</p>
+            <button class="main__btn"><a href="#contact">Contact</a></button>
+        </div>
+    </div>
+
+<!-- About -->    
+
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><img src="Brennan_headshot.jpg" alt="Brennan headshot"></div>
+            </div>
+            <div class="main__content">
+                <h1>Who am I?</h1>
+                <h2>
+                    I'm an aspiring software developer passionate about creating software that can change lives.  
+                </h2>
+                <p>Click the link if you'd like to learn more.</p>
+                <!-- Fix Me add blog or Extra About Me page -->
+                <button class="main__btn"><a href="https://brennan488.wordpress.com/about-me/" target="_blank"">Learn More</a></button>
+            </div>
+        </div>
+    </div>
+
+<!-- Skills -->
+
+<div class="skills" id="skills">
+    <h1>My Skills</h1>
+    <div class="skills__wrapper">
+        <div class="skills__card">
+            <h2>Programming:</h2>
+            <p>Javascript</p>
+            <p>C++</p>
+            <p>Python</p>
+            <p>HTML/CSS</p>
+        </div>
+        <div class="skills__card">
+            <h2>Databases:</h2>
+            <p>SQL</p>
+            <p>SQLite</p>
+            <p>MySQL</p>
+            <p>MongoDB</p>
+        </div>
+        <div class="skills__card">
+            <h2>Version Control:</h2>
+            <p>GitHub</p>
+            <p>Git</p>
+            <p>Bitbucket</p>
+        </div>
+        <div class="skills__card">
+            <h2>Methodologies:</h2>
+            <p>Agile</p>
+            <p>Scrum</p>
+            <p>DevOps</p>
+        </div>
+    </div>
+</div>
+
+<!-- Projects -->    
+
+<div class="projects" id="projects">
+    <h1>My Projects</h1>
+    <div class="projects__wrapper">
+        <div class="projects__card">           
+            <h2>Website</h2>
+            <br>
+            <p>Portfolio site using HTML/CSS and JS that implements various elements of stylization & functionality, such as hover elements, 
+                button toggles, responsive mobile menu, smooth scrolling, and navbar stylization
+            </p>
+        </div>
+        <div class="projects__card">
+            <h2>Discord Bot</h2>
+            <br>
+            <p>Discord bot in Python that is used to filters messages and automatically move them to more appropriate channels
+            </p>
+        </div>
+        <div class="projects__card">
+            <h2>Course Catalog</h2>
+            <br>
+            <p>A university project that created a Course Catalog in C++ for advisers and students that used a binary search tree 
+                and contained a wide variety of functionality
+            </p>
+        </div>
+        <div class="projects__card">
+            <h2>Grocery Inventory App</h2>
+            <br>
+            <p>Created an application that embedded Python code in a C++ program to utilize the functionality of each in a grocery inventory system
+                for a university course
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Education-->
+
+    <div class="education" id="education">
+        <h1>My Education</h1>
+        <div class="education__wrapper-2">
+            <div class="education__card">
+                <h2>B.S. in<br>Computer Science,<br>Software Development concentration</h2>
+                <p>Southern New Hampshire University (graduating April '23)<br>4.0</p>
+                <p>OOP, DSA, secure coding and testing, SDLC and Agile methodology, C++, Javascript, and Python</p>
+            </div>
+            <div class="education__card">
+                <h2>M.S. in <br> Library Science</h2>
+                <p>University of Kentucky<br>4.0</p>
+                <p>Relevant coursework includes SQL and introductory HTML/CSS/JS</p>
+            </div>
+            <div class="education__card">
+                <h2>B.S. Secondary Education, English & Language Arts</h2>
+                <p>Indiana University Kokomo</p>
+            </div>
+        </div> 
+    </div>
+
+<!-- Contact -->
+
+<div class="main" id="contact">
+    <div class="main__container">
+        <div class="main__content">
+        <ul>
+            <h1>Let's connect!</h1>
+            <h2><li><a href="mailto:brtreed3@gmail.com" target="_blank">Email</a></li></h2>
+            <h2><li><a href="https://www.linkedin.com/in/brennan-reed/" target="_blank">LinkedIn</a></li></h2>
+            <h2><li>574-601-1814</li></h2>
+        </ul>
+        </div>
+        <div class="main__img--container">
+            <div class="main__img--card" id="card-2"><i class="fas fa-users"></i></div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <h1>Fake links</h1>
+                <h1>Your content here</h1>
+                <h1>Testimonials</h1>
+                <h1>Careers</h1>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <h1>Facebook</h1>
+                <h1>Twitter</h1>
+                <h1>Instagram</h1>
+                <h1>YouTube</h1>
+            </div>
+            <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <h1>Contact</h1>
+                <h1>Support</h1>
+            </div>
+        </div>
+    </div>
+    <section class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo">REED</a>
+            </div>
+            <p class="website__rights">© Brennan Reed 2022. All rights reserved.</p>
+            <div class="social__icons">
+                <a href="/" class="social__icon--link" 
+                ><i class="fab fa-facebook"></i></a>
+                <a href="/" class="social__icon--link" 
+                ><i class="fab fa-youtube"></i></a>
+                <a href="/" class="social__icon--link" 
+                ><i class="fab fa-instagram"></i></a>
+                <a href="/" class="social__icon--link" 
+                ><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
