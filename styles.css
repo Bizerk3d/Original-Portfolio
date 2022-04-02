@@ -538,13 +538,13 @@
 }
 
 .skills__card button:hover {
-   cursor: pointer;
+   cursor: default;
 }
 
 .skills__card:hover {
    transform: scale(1.075);
    transition: 0.3s ease-in;
-   cursor: pointer;
+   cursor: default;
 }
 
 @media screen and (max-width: 1300px) {
@@ -596,6 +596,7 @@
    border-radius: 4px;
    display: flex;
    flex-direction: column;
+   text-align: center;
    justify-content: center;
    color: #fff;
    background-image: linear-gradient(to right, #c21500 0%, #fe8c00 100%);
@@ -646,13 +647,21 @@
 }
 
 .projects__card button:hover {
-   cursor: pointer;
+   cursor: default;
 }
 
 .projects__card:hover {
    transform: scale(1.075);
    transition: 0.3s ease-in;
-   cursor: pointer;
+   cursor: default;
+}
+
+.social__icon--github {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 36px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1300px) {
@@ -749,13 +758,13 @@
 }
 
 .education__card button:hover {
-   cursor: pointer;
+   cursor: default;
 }
 
 .education__card:hover {
    transform: scale(1.075);
    transition: 0.3s ease-in;
-   cursor: pointer;
+   cursor: default;
 }
 
 @media screen and (max-width: 1300px) {
