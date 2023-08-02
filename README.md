@@ -1,2 +1,3 @@
-# Website-One
-HTML/CSS/JS - responsive, mobile menu, stylized navbar with active toggle
+# First Portfolio
+
+Designed with HTML/CSS/JS.  Responsive, mobile menu, stylized navbar with active toggle.
